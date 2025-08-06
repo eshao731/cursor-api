@@ -85,7 +85,7 @@ strip = true
 # panic = 'unwind'
 opt-level = 3
 trim-paths = "all"
-rustflags = ["-Cdebuginfo=0", "-Zthreads=8"]
+# rustflags = ["-Cdebuginfo=0", "-Zthreads=8"]
 
 [features]
 default = ["webpki-roots"]
