@@ -74,18 +74,6 @@ uuid = { version = "1.14", default-features = false, features = ["v4", "fast-rng
 [profile.dev]
 debug = "line-tables-only"
 
-[profile.release]
-lto = true
-codegen-units = 1
-panic = 'abort'
-strip = true
-# debug = true
-# split-debuginfo = 'packed'
-# strip = "none"
-# panic = 'unwind'
-opt-level = 3
-trim-paths = "all"
-# rustflags = ["-Cdebuginfo=0", "-Zthreads=8"]
 
 [features]
 default = ["webpki-roots"]
